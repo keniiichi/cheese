@@ -1,0 +1,561 @@
+
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+
+
+
+
+
+/*どの部分のcssに対して
+命令をしているのかコメントを
+記載しよう！
+---------------------*/
+
+/*全体真ん中よせ、960px
+---------------------*/
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+
+/*メイン画像
+---------------------*/
+.main{
+	background: url(../img/mainbg.png);
+    background-size: cover;
+	background-position: center;
+	height: 360pt;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+.title{
+	font-size: 48px;
+	color: white;
+	line-height: 2.5rem;
+}
+
+.subtitle{
+	font-size: 36px;
+	color: white;
+}
+
+/*グローバルメニュー
+---------------------*/
+.inner{
+	max-width: 100%;
+	margin: 0 auto;
+	width: 980px;
+	align-items: center;
+	border-bottom: solid 1.5px;
+	border-color: #efefef;
+	height: auto;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex li{
+	margin-left: 30px;
+	line-height: none;
+}
+
+.navitext{
+	font-size: 21px;
+}
+
+
+/*アバウト
+---------------------*/
+.about_flame{
+	flex-direction: column;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 120px;
+	/* width:50e; */
+}
+
+.h2text_y{
+	color: #ffd61a;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 24px;
+}
+
+
+/*アバウトスライド
+---------------------*/
+.about_slid{
+	display:flex;
+	justify-content: center;
+	/* overflow: hidden; */
+}
+
+
+/*コース　メイン
+---------------------*/
+.course_flame{
+	text-align: center;	
+}   
+
+.h2text_b{
+	color: #222222;
+	font-weight: bold;
+	font-size: 24px;
+	margin-top: 64px;
+}
+
+
+/*コース01
+---------------------*/
+.course01_flame_h3{
+	display: flex;	
+}
+
+.course01_igm{
+	width: 50%;
+}
+
+.course01_text_flame{
+	width: 50%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: whitesmoke;
+
+}
+
+.course01_textsise{
+	font-size: small;
+}
+
+.course01_img_file{
+	width: 480px;
+	/* object-fit: cover; */
+} 
+
+.course01_h3{
+	color: #222222;
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+.course01_text{
+	max-width: 392px;
+	/* margin-left: 48px; */
+	/* align-items: center; */
+
+}
+
+/*コース02
+---------------------*/
+.course02_flame{
+	display: flex;
+	
+}
+
+.course02_text_flame{
+	width: 50%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: whitesmoke;
+}
+
+.course02_textsise{
+	/* width: 70%; */
+	font-size: small;
+}
+
+.course02_h3{
+	color: #222222;
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+.course02_text{
+	max-width: 392px;
+	/* margin-left: 48px; */
+	/* align-items: center; */
+}
+
+.course02_img_file{
+	width: 480px;
+	height: 323.75px;
+	object-fit: cover;
+	}
+	
+.course02_igm{
+	width: 50%;
+}
+
+/*コース03
+---------------------*/
+.course03_flame_h3{
+	display: flex;
+	
+}
+
+.course03_igm{
+	width: 50%;
+}
+
+.course03_text_flame{
+	width: 50%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: whitesmoke;
+
+}
+
+.course03_textsise{
+		font-size: small;
+}
+
+.course03_img_file{
+	width: 480px;
+	/* object-fit: cover; */
+} 
+
+.course03_h3{
+	color: #222222;
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+.course03_text{
+	max-width: 392px;
+
+}
+
+/*ニュース
+---------------------*/
+.news_h2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.h2_text_2{
+	color: #ffd61a;
+	font-size: 24px;
+	font-weight: b;
+}
+
+.newe_flame{
+	display: flex;
+	justify-content: center;
+	margin-left:72px;
+	margin-right:72px;
+}
+
+.news_content{
+	padding-left:16px;
+	padding-right:16px;
+
+}
+
+.news_text{
+	font-size: small;
+}
+
+.news_img_file{
+width: 100%;
+}
+
+/*Moreボタン
+---------------------*/
+.btnbtn{
+	display:flex ;
+	justify-content: center;
+
+}
+
+.btn{
+	text-align: center;
+	font-size: 20px;
+	width: 300px;
+	height: 60px;
+	background-color: #ffd61a;
+	margin-bottom: 48px; 
+	/* padding-top: 10px;  */
+}
+
+
+/*アクセス
+---------------------*/
+.access_color{
+	background-color: #fafafa;
+	padding-bottom: 30px;
+
+}
+
+.access_h2{ 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	margin-bottom: 24px;
+	background-color: #fafafa;
+}
+
+.h2_text_3{
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+/*グーグルマップ
+---------------------*/
+.gmap {
+	height: 50%;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+}
+
+.gmap iframe {
+position: absolute;
+left: 0;
+top: 0;
+height: 50%;
+width: 100%;
+}
+
+/*学校概要
+---------------------*/
+.access_flame{
+	text-align: start;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto
+
+}
+
+.schoolTD{
+	width: 20%;
+
+
+}
+
+
+
+
+/*コンタクト
+---------------------*/
+ .contact_flame{ 
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	flex-direction: column;
+	/* text-align: center;	 */
+}
+
+.h2_text_4{
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom:24px;
+}
+
+
+/*問合せフォーム
+---------------------*/
+.form_flame{
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 120px;
+
+}	
+
+form{
+/* ?font-size: 1.125rem; */
+    margin: 50px auto 0;
+    text-align: left;
+    width: 760px;
+
+}
+
+
+table{
+	/* float: left; */
+	width: 100%;
+
+}
+
+.requiredTH{
+	text-align: left;
+	vertical-align: top;
+    width: 20%;
+
+}
+
+.requiredTD{
+	border: 0.75px solid;
+	border-color:#bfbfbf;
+	padding-bottom: 5px;
+	padding-bottom: 5px;
+	width: 328px;
+	height: 36px;
+
+}
+
+.requiredTD_mail{
+	border: 0.75px solid;
+	border-color:#bfbfbf;
+	padding-bottom: 5px;
+	padding-bottom: 5px;
+	width: 328px;
+	height: 36px;
+	margin-bottom: 40px;
+
+}
+
+.requiredTD_radio{
+	padding-bottom: 5px;
+	padding-bottom: 5px;
+	width: 328px;
+	height: 36px;
+	margin-bottom: 40px;
+
+}
+
+.requiredTD_checkbox{
+	padding-bottom: 5px;
+	padding-bottom: 5px;
+	width: 328px;
+	height: 36px;
+	margin-bottom: 40px;
+
+}
+
+.requiredTD_taxtarea{
+	border: 0.75px solid;
+	border-color:#bfbfbf;
+	padding-bottom: 5px;
+	padding-bottom: 5px;
+	width: 328px;
+	height: 36px;
+	margin-bottom: 40px;
+
+}
+
+
+/*送信ボタン
+---------------------*/
+.box{
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 20px;
+
+}	
+	
+/*フッター
+---------------------*/
+footer{
+	background: #707070;
+	font-size: 1.125rem;
+	text-align: center;
+    overflow: hidden;
+    padding-top: 32px;
+	padding-bottom: 32px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------
+media query
+640px以下では以下のCSSが適用
+---------------------*/
+@media screen and (max-width:640px){
+	.flex{flex-direction: column;
+		padding: 0;
+	
+	}
+	.flex li{
+		width: 100%;
+		text-align: center;
+		padding: 18px 0;
+
+
+	}
+
+
+
+
+}
+
+
+
+
+/*news_content
+---------------------*/
+
+/*news_content
+---------------------*/
+
+/*news_content
+---------------------*/
+
+
+
+
+
